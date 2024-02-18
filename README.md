@@ -36,6 +36,7 @@ Different items have different "keys" (parameters, but in JSON). Let's go over w
 Pets have specific keys to them that define properties of them. These include the `"pt"` and `"sh"` keys.
 
 `"pt"` defines the "Pet Tier", or the tier of the pet. Two numbers are used to represent the value. `1` is used to represent Golden Pets, and `2` is used to represent Rainbow Pets.
+
 `"sh"` defines if a Pet is "Shiny", defined by a `true` value.
 
 > [!NOTE]
@@ -55,4 +56,5 @@ Charms use the same key as Potions and Enchants do (`"tn"`). However, the value 
 
 ### Notes on Formatting
 All miscellaneous items use their full names. If you're looking for a miscellaneous item, use it's full name.
+
 For anything else, keep note of the naming scheme. Not everything uses the in-game name! For example, the "Lucky Eggs" potion is just called the "Lucky" potion inside of the data.
